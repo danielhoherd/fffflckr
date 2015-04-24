@@ -19,3 +19,4 @@ __pycache__
 *.pyc
 *flickr_keys.py
 flickr_auth_handler
+._.DS_Store
