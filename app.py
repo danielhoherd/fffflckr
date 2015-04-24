@@ -128,7 +128,7 @@ def get_photos(user_id = '14280625@N03'):
         if 'url_m' not in photo:
             pass
         tmp_photo['f'] = can_fav
-        tmp_photo['u'] = photo['url_m'] # .rsplit('.',1)[0] --- don't strip the extension, what were you thinking....
+        tmp_photo['u'] = photo['url_m']
         tmp_photo['fl'] = photo['id']
         tmp_photo['o'] = photo['owner']
         export_photos.append(tmp_photo)
