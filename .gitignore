@@ -1,0 +1,21 @@
+# Ignore other unneeded files.
+*.autosave
+*.bak
+*.crt
+*.key
+*.log
+*.pyc
+*.svn
+*.swo
+*.swp
+*.tmp
+*~
+.DS_Store
+.idea
+*sqlite3
+*.db
+db.sqlite3
+__pycache__
+*.pyc
+*flickr_keys.py
+flickr_auth_handler
